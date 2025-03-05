@@ -44,3 +44,7 @@ Q6. Are there scenarios where using both together might be benefits
 Yes. 
 Hybrid Infrastructure. if need traditional (server-based) infrastructure and severless components need to be managed, can use Terraform to provision the base infrastructure and then use the Serverless framework to deploy serverless application on top of the infrastructure.
 
+Complex multi-cloud developments. In multi-cloud environments, Terraform can handle the provisioning of the infrastructure resources across different providers, while the Serverless Framework can manage the deployment of the serverless application on specific cloud platforms (e.g. AWS Lambda for AWS, Azure Functions for Azure)
+
+Combining both tools' benefit. If application architecture includes a mixture of serverless services and traditional infrastructure, using both tools can simplify the deployment process. e.g. Terraform provision the networks, VPCs, databases while the Serverless Framework focus on deploying serverless applications that interact with those resources.
+
